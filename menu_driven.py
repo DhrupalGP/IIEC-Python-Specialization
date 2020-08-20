@@ -3,11 +3,9 @@ import os
 
 while True:
 
-    # tts.speak("Hey Dhrupal")
     print()
     print("What do you want, please enter something: ", end="")
     menu = input("").lower()
-    # print(menu)
 
     # break condition
     if (("stop" in menu) or ("exit" in menu) or  ("close" in menu)):
